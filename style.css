@@ -1,0 +1,280 @@
+/* GERAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container li a:hover{ /*Deixa laranja quando passa o cursor*/
+    color: orangered;
+}
+
+/* INICIO ESTILO HEADER */
+.header{
+    background-color: #232323;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid orangered 3px;
+}
+
+.header h1{
+    float: left;
+    color: white;
+}
+
+.header ul{
+    /* Tira as 'bolinhas' da lista */
+    list-style: none;
+    float: right;
+}
+
+.header h1, .header ul{
+    margin-top: 20px;
+}
+
+.header li{
+    /* coloca os elementos <li> na mesma linha como blocos */
+    display: inline-block;
+    
+    font-size: 17px;
+    text-transform: uppercase; /*Deixa em maiusculo*/
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #444444;
+    cursor: pointer;
+    
+}
+
+
+.header ul li a{
+    /* Tira o estilo de 'link' */
+    text-decoration: none;
+    color: white;
+}
+
+.header .text-orange{
+    color: orangered;
+    font-weight: bold;
+}
+/*FIM HEADER*/
+
+
+/*Inicio Banner*/
+.banner {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: url('./img/banner-fundo.jpeg');
+    background-size: cover; /*Se coporta conforme o tamanho da div*/
+}
+#h1_central {
+    color: orangered;
+    padding-top: 200px; /*Da um espaçamento entre o h1 e o header*/
+    font-size: 40px;
+}
+#h3_central {
+    margin-top: 15px; /*Da um espaçamento entre o h3 e o h1, poderia utilizar padding-top também*/
+    font-weight: lighter; /*Deixa a escrita mais "fininha"*/
+    font-size: 25px;
+    color: grey;
+}
+/*Fim Banner*/
+
+/*Início Novidades*/
+.news {
+    width: 100%;
+    height: 80px;
+    background-color: #232323;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    font-weight: bold; /*Deixa em negrito*/
+    border-radius: 5px;
+}
+
+.news button {
+    margin-top: 20px;
+}
+
+.btn-orange {
+    border: none; /*Estiliza ao redor do button*/
+    padding: 10px;
+    font-weight: bold; /*Deixa em negrito*/
+    border-radius: 5px;
+    background-color: orangered;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+/*Início Missão, Visão e Valores*/
+.box {
+text-align: center;
+/*background-color: red;*/
+
+
+}
+
+.box-item {
+    /*background-color: blue;*/
+    display: inline-block;
+    width: 32%;
+}
+
+.box-item img {
+width: 100px;
+margin-top: 35px;
+}
+
+.box-item h3, .box-item p {
+    margin-top: 15px;
+    
+}
+
+
+/*Fim Missão, Visão e Valores*/
+
+
+/*PÁGINA SOBRE*/
+
+/*CONTEÚDO*/
+
+.conteudo_sobre{
+    background-color: #ECF0F1;
+    height: 300px;
+}
+
+.assunto1 {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 43%;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+    border-bottom: solid orangered 3px;
+}
+
+.assunto1 p {
+    margin-top: 15px;
+    font-size: 17px;
+    color: grey;
+    font-weight: lighter;
+}
+
+
+
+.assunto2 {
+    margin-bottom: 20px;
+    width: 43%;
+    float: right;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+    border-bottom: solid orangered 3px;    
+}
+
+.assunto2 p {
+    margin-top: 15px;
+    font-size: 17px;
+    color: grey;
+    font-weight: lighter;    
+}
+
+/*TIME*/
+
+.nosso_time{
+    background-color: #232323;
+    height: 350px;
+}
+
+.nosso_time h2{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.box_time{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    margin-right: 16px;
+
+}
+
+.box_time img{
+    width: 90px;
+    border-radius: 25%;
+    margin-top: 15px;
+}
+
+.box_time h3{
+    color: orangered;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.box_time p{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 5px;
+    
+}
+
+.conteudo_final{
+    background-color: #ECF0F1;
+    height: 278px;
+}
+
+.assunto3 {
+    display: inline-block;
+    background-color: white;
+    margin-top: 50px;
+    border-bottom: solid orangered 3px;    
+}
+
+.assunto3 h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.assunto3 p {
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    color: grey;
+    font-weight: lighter;
+}
+
+.footer_index {
+    background-color: orangered;
+    height: 75px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: orangered;
+    height: 75px;
+    width: 100%;  
+}
+
+.box h4 {
+    padding-top: 30px;
+    color: white;
+
+}
+
