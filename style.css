@@ -90,7 +90,7 @@ body{
 
 /*Início Novidades*/
 .news {
-    width: 100%;
+    width: 98.5%;
     height: 80px;
     background-color: #232323;
     text-align: center;
@@ -278,3 +278,57 @@ margin-top: 35px;
 
 }
 
+/*Login*/
+/*Não precisa de um Container, pois é só uma caixinha que vai ser centralizada*/
+
+#form_login{
+    background-color:  #ff4500;
+    width: 40%;
+    margin: auto; /*centraliza a página*/
+    height: 350px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+#form_login h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: lighter;
+}
+
+#form_login label, #form_login input{
+    display: block; /*deixa um embaixo do outro*/
+    width: 90%;
+    margin-left: 5%;
+}
+
+#form_login label{
+    margin-bottom: 7px;
+}
+
+#form_login input{
+    margin-bottom: 25px;
+    height: 35px;
+    border: 1px solid #232323;
+    border-radius: 10px;
+
+}
+
+
+.estilo_padrao{
+    display: block; /*Deixa um embaixo do outro*/
+    background-color: #232323;
+    color: white;
+    border: none; /*Tira a borda*/
+    width: 20%;
+    margin-left: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.estilo_padrao:hover{
+color: greenyellow;
+}
